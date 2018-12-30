@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Waleed Birthday</title>
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+
+    <style>
+      * {
+          box-sizing: border-box;
+      }
+
+      html {
+        font-size: 9px;
+      }
+
+      body {
+          margin: 0;
+          height: 100vh;
+          background-color: #c0eaf1;
+          font: 4rem 'Luckiest Guy', cursive;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          letter-spacing: .1rem;
+          
+          background-image: 
+              radial-gradient(
+                  circle at 20% 50%,
+                  #fff,
+                  transparent
+              );
+          text-shadow: .5px 0px 5px rgba(0, 0, 0, .3);
+      }
+
+      .hb {
+          display: flex;
+      }
+
+      .name {
+          margin-top: 2rem;
+          color: #1e8794;
+      }
+
+      .y {
+          padding-right: 1rem;
+      }
+
+      /* --- Colors --- */
+
+      .h {
+          color: #D3DE00;
+      }
+
+      .a {
+          color: 	#FF9A26;
+      }
+
+      .p {
+          color: #a93d3e;
+      }
+
+      .y {
+          color: #E697E3;
+      }
+
+      .b {
+          color: #4FBBBD;
+      }
+
+      .i {
+          color: #DB5151;
+      }
+
+      .r {
+          color: #8280C4;
+      }
+
+      .t {
+          color: #76DE6D;
+      }
+
+      .d {
+          color: #C162C4;
+      }
+
+      /* --- Keyframes --- */
+
+      @keyframes return {
+          100% {
+              transform: translate3d(0, 0, 0);
+          }
+      }
+
+      @keyframes appear {
+          0% {
+              opacity: 0;
+          }
+      }
+
+      /* --- Animation --- */
+
+      .letter {
+          animation: return 2s forwards .5s;
+      }
+
+      .name {
+          animation: appear 3s backwards 2.5s;
+      }
+
+      /* --- Positioning --- */
+
+      .letter:nth-child(1) {
+          transform: translate3d(20rem, -10rem, 0);
+      }
+
+      .letter:nth-child(2) {
+          transform: translate3d(15rem, 9rem, 0);
+      }
+
+      .letter:nth-child(3) {
+          transform: translate3d(25rem, -13rem, 0);
+      }
+
+      .letter:nth-child(4) {
+          transform: translate3d(-6rem, -9rem, 0);
+      }
+
+      .letter:nth-child(5) {
+          transform: translate3d(17rem, 5rem, 0);
+      }
+
+      .letter:nth-child(6) {
+          transform: translate3d(-5rem, -3rem, 0);
+      }
+
+      .letter:nth-child(7) {
+          transform: translate3d(12rem, 10rem, 0);
+      }
+
+      .letter:nth-child(8) {
+          transform: translate3d(-15rem, 9rem, 0);
+      }
+
+      .letter:nth-child(9) {
+          transform: translate3d(-10rem, 10rem, 0);
+      }
+
+      .letter:nth-child(10) {
+          transform: translate3d(-20rem, 0rem, 0);
+      }
+
+      .letter:nth-child(11) {
+          transform: translate3d(-15rem, -9rem, 0);
+      }
+
+      .letter:nth-child(12) {
+          transform: translate3d(5rem, -5rem, 0);
+      }
+
+      .letter:nth-child(13) {
+          transform: translate3d(-10rem, -1rem, 0);
+      }
+
+      @media (min-width: 600px) {
+        html {
+          font-size: 16px;
+        }
+      }
+    </style>
+</head>
+<body>
+    <div class="hb">
+       <span class="letter h">h</span>
+       <span class="letter a">a</span>
+       <span class="letter p">p</span>
+       <span class="letter p">p</span>
+       <span class="letter y">y</span>
+       <span class="letter b">b</span>
+       <span class="letter i">i</span>
+       <span class="letter r">r</span>
+       <span class="letter t">t</span>
+       <span class="letter h">h</span>
+       <span class="letter d">d</span>
+       <span class="letter a">a</span>
+       <span class="letter y">y</span>
+    </div>
+    <div class="name">
+        Waleed
+    </div>
+</body>
+</html>
